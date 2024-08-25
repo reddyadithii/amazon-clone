@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+/** styling for navigarion bar **/
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/** styling for navlogo **/
+.nav-logo{
+    height:50px;
+    width: 120px;
+}
+.logo{
+    background-image: url("amazonlogo5.png");
+    height: 40px;
+    width: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 7px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+border: 1.5px solid white;
+}
+
+/** box2 styling **/
+.navbar-address{
+    margin-left: 7px;
+    padding: 6px 18px 6px 18px;
+}
+.deliver{
+    font: 0.5rem;
+    color: #cccccc;
+    margin-left: 10px;
+}
+.country{
+    font: 1.5rem;
+    color: #ffffff;
+    margin-left: 4px;
+}
+.navadress-icon{
+    display: flex;
+}
+
+/** styling for navsearch **/
+
+.nav-search{
+    display: flex;
+    align-items: center;
+    height: 38px;
+    width: 653px;
+    border: none;
+}
+.select-option{
+    background-color: #E6E6E6;
+    text-align: center;
+    width: 144px;
+    height: 38px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-bar{
+background-color: #ffffff;
+width: 460px;
+font-size: 15px;
+border: none;
+height: 38px;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 38px;
+    background-color: rgb(255,153,0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/**  styling for accounts section **/
+.nav-signin{
+    padding: 6px 18px 6px 18px;
+}
+span{
+    font-size: 0.6rem;
+}
+.accounts{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** styling for cart **/
+.nav-returns{
+    padding: 6px 18px 6px 18px;  
+}
+.cart{
+    padding: 6px 18px 6px 18px;
+   font-size: 30px;
+   display: flex;
+}
+.carttext p{
+    font-size: small;
+    margin-top: 17px;
+    font-weight: 700;
+}
+.nav-search:hover{
+    border: 3px solid orange;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+}
+
+/** styling for second box **/
+
+.secondbox{
+    background-color:#222f3d;
+    height: 40px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.secondbox-all{
+    display: flex;
+    display: inline;
+}
+.secondbox-options p{
+    display: inline;
+    margin-left: 15px;
+}
+.secondbox-options{
+    width: 70%;
+    font-size: 14px;
+}
+.secondbox-deals{
+    font-size: 16px;
+    font-weight: 700;
+}
+.threeimages{
+    margin-bottom: auto;
+}
+
+/** styling for three images **/
+.threeimages{
+    height: 835px;
+    width: 100%;
+}
+
+.firstimage{
+    background-image: url("firstimage1.png");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+h2{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 36px;
+}
+h4{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right:10px;
+    height: 28px;
+}
+a{
+    color: #007185;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.firstimagetext{
+    display: flex;
+    background-color: #222f3d;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.firsrimagetext a{
+    color: #c5e9f0fd;
+    text-decoration: none;
+}
+hr{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.maincontent{
+    width: 400px;
+    height:300px;
+    flex: 1;
+    display: grid;
+    grid-template-rows: 75% auto;
+}
+.image{
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.maincontent h2 h4{
+    grid-row: 2;
+    padding: 20px;
+}
+
+footer{
+    margin-top: 14px;
+}
+.footer1{
+    background-color: #37475a;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 70px;
+}
+.footer2{
+display: flex;
+background-color: #222f3d;
+color: white;
+height: 300px;
+justify-content: space-evenly;
+}
+ul{
+    margin-top: 15px;
+}
+ ul a{
+    display: block;
+    color: #dddddd;
+    font-size: small;
+}
+ul h3{
+    font: 16px;
+    color: #FFFFFF;
+}
+.footer3{
+    height: 70px;
+    width: 100%;
+    background-color: #222f3d;
+    color: #dddddd;
+    border-top: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.amazonlogo{
+    background-image: url("amazonlogo5.png");
+    height: 40px;
+    width: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    margin-top: 7px;
+}
+.unitedstates img{
+    height: 15px;
+    width: 15px;
+}
+.besideamazonlogo{
+    display: flex;
+    align-items: center;
+}
+.english,.usdoller,.unitedstates{
+    margin-left: 30px;
+    padding: 6px 18px 6px 18px;
+}
+.english{
+   border: 1px solid rgb(146, 145, 145);
+}
+.usdoller{
+    border: 1px solid rgb(146, 145, 145);
+}
+.unitedstates{
+    border: 1px solid rgb(146, 145, 145);
+}
+.footer4{
+    height: 77px;
+    width: 100%;
+    background-color: #222f3d;
+}
+.firstline4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.firstline4 a{
+    color: #dddddd;
+}
+.secondline4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #dddddd;
+}
+.besidenavsearch{
+    display: flex;
+    padding: 6px 18px 6px 18px;
+}
+.usflag1 img{
+    height: 15px;
+    width: 18px;
+    margin-top: 7px;
+}
+.usflag1 span{
+    font-size: 15px;
+    font-weight: 600;
+}
+.usflag1 a{
+    font-weight: 300;
+}
